@@ -12,9 +12,14 @@ Plugin 'scrooloose/syntastic'
 Plugin 'xolox/vim-misc'
 Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi-tagbar'
+Plugin 'jelera/vim-javascript-syntax'
 
 call vundle#end()
 filetype plugin indent on
+
+"--javascript syntax
+
+au Filetype javascript call JavaScriptFold()
 
 "--tags
 set tags=./tags;,~/.vimtags
