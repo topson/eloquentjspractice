@@ -4,14 +4,14 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'Valloric/YouCompleteMe'
+"--Plugin 'Valloric/YouCompleteMe'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'scrooloose/syntastic'
 Plugin 'xolox/vim-misc'
-Plugin 'xolox/vim-easytags'
+"--Plugin 'xolox/vim-easytags'
 Plugin 'majutsushi/tagbar'
 Plugin 'jelera/vim-javascript-syntax'
 
