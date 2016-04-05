@@ -54,8 +54,8 @@ set backspace=indent,eol,start
 set ruler
 set t_Co=256
 set number
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set smarttab
 set ai
 set smartindent
