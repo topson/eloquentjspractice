@@ -66,8 +66,8 @@ set mouse=a
 set cursorline
 set nowrap
 set autoindent
-set background=dark
+set background=light
 
 
 syntax on
-colorscheme zenburn
+colorscheme solarized
