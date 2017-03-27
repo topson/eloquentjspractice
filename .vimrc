@@ -56,7 +56,6 @@ set t_Co=256
 set number
 set tabstop=2
 set shiftwidth=2
-set smarttab
 set ai
 set smartindent
 set showmatch
@@ -67,7 +66,7 @@ set cursorline
 set nowrap
 set autoindent
 set background=light
-
+set expandtab
 
 syntax on
 colorscheme solarized
