@@ -50,8 +50,8 @@ set formatoptions+=j            " Remove comment leader when joining lines
 
 set expandtab                   " Uses spaces instead of tab characters
 set smarttab                    " Helps with backspacing because of expandtab
-set softtabstop=4               " Number of spaces that a tab counts for
-set shiftwidth=4                " Number of spaces to use for autoindent
+set softtabstop=2               " Number of spaces that a tab counts for
+set shiftwidth=2                " Number of spaces to use for autoindent
 set shiftround                  " Rounds indent to a multiple of shiftwidth
 
 set nojoinspaces                " Prevents inserting two spaces after punctuation on a join (it's not 1990 anymore)
@@ -503,5 +503,4 @@ let g:vim_json_syntax_conceal = 0
 " }}}
 
 " eof
-" vim:ft=vim:fdm=marker:ff=unix:nowrap:tabstop=4:shiftwidth=4:softtabstop=4:smarttab:shiftround:expandtab
-
+" vim:ft=vim:fdm=marker:ff=unix:nowrap:tabstop=2:shiftwidth=2:softtabstop=2:smarttab:shiftround:expandtab
